@@ -15,8 +15,11 @@
 		297B5617269CAE2A008E69FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297B5615269CAE2A008E69FE /* Main.storyboard */; };
 		297B5619269CAE31008E69FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297B5618269CAE31008E69FE /* Assets.xcassets */; };
 		297B561C269CAE31008E69FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297B561A269CAE31008E69FE /* LaunchScreen.storyboard */; };
-		29CB584026ED8ABC004FAB4A /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CB583F26ED8ABC004FAB4A /* MyViewController.swift */; };
+		29CB584026ED8ABC004FAB4A /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CB583F26ED8ABC004FAB4A /* MyView.swift */; };
 		29CB584226ED8CED004FAB4A /* RoundedCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CB584126ED8CED004FAB4A /* RoundedCornerButton.swift */; };
+		912D54722AF4731A00DAF912 /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D54712AF4731A00DAF912 /* MyLabel.swift */; };
+		912D54742AF4756600DAF912 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 912D54732AF4756600DAF912 /* Localizable.strings */; };
+		917A4B522AFE6DD400384CDE /* ShadowContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A4B512AFE6DD400384CDE /* ShadowContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +33,11 @@
 		297B5618269CAE31008E69FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		297B561B269CAE31008E69FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		297B561D269CAE31008E69FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29CB583F26ED8ABC004FAB4A /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		29CB583F26ED8ABC004FAB4A /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		29CB584126ED8CED004FAB4A /* RoundedCornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerButton.swift; sourceTree = "<group>"; };
+		912D54712AF4731A00DAF912 /* MyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
+		912D54732AF4756600DAF912 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		917A4B512AFE6DD400384CDE /* ShadowContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +74,10 @@
 				297B5611269CAE2A008E69FE /* SceneDelegate.swift */,
 				297B5615269CAE2A008E69FE /* Main.storyboard */,
 				29CB584126ED8CED004FAB4A /* RoundedCornerButton.swift */,
-				29CB583F26ED8ABC004FAB4A /* MyViewController.swift */,
+				917A4B512AFE6DD400384CDE /* ShadowContainerView.swift */,
+				29CB583F26ED8ABC004FAB4A /* MyView.swift */,
+				912D54712AF4731A00DAF912 /* MyLabel.swift */,
+				912D54732AF4756600DAF912 /* Localizable.strings */,
 				297B5618269CAE31008E69FE /* Assets.xcassets */,
 				297B561A269CAE31008E69FE /* LaunchScreen.storyboard */,
 				297B561D269CAE31008E69FE /* Info.plist */,
@@ -137,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				297B561C269CAE31008E69FE /* LaunchScreen.storyboard in Resources */,
+				912D54742AF4756600DAF912 /* Localizable.strings in Resources */,
 				297B5619269CAE31008E69FE /* Assets.xcassets in Resources */,
 				297B5617269CAE2A008E69FE /* Main.storyboard in Resources */,
 			);
@@ -153,8 +163,10 @@
 				29CB584226ED8CED004FAB4A /* RoundedCornerButton.swift in Sources */,
 				297B5610269CAE2A008E69FE /* AppDelegate.swift in Sources */,
 				297B5612269CAE2A008E69FE /* SceneDelegate.swift in Sources */,
+				917A4B522AFE6DD400384CDE /* ShadowContainerView.swift in Sources */,
 				295BBF1326A9B0D800C11CF9 /* MyCollectionViewController.swift in Sources */,
-				29CB584026ED8ABC004FAB4A /* MyViewController.swift in Sources */,
+				29CB584026ED8ABC004FAB4A /* MyView.swift in Sources */,
+				912D54722AF4731A00DAF912 /* MyLabel.swift in Sources */,
 				295BBF1126A9B0C100C11CF9 /* MyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
